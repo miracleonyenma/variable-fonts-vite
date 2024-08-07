@@ -1,0 +1,40 @@
+
+body {
+  font-family: 'Kyiv Sans';
+}
+
+@font-face {
+  font-family: 'Kyiv Sans';
+  src: url('/font/KyivTypeSans-VarGX.ttf');
+  font-weight: 0 1000;
+  font-display: swap;
+}
+ 
+
+h1 {
+  color: #bd0c0c;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  margin: 0;
+  text-align: center;
+}
+
+.variable-font {
+  font-family: 'Kyiv Sans';
+  font-size: 5rem;
+  line-height: 1.1;
+  font-weight: 100;
+  font-variation-settings: 
+   'wght' 100, 'CONT' 250, 'MIDL' 0;
+  transition: font-variation-settings 500ms;
+  
+    
+}
+
+.variable-font:hover {
+  font-weight: 1000;
+  font-variation-settings: 
+    'wght' 1000, 'CONT' 250, 'MIDL' -1000;
+}
+
